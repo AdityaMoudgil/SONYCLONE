@@ -1,0 +1,86 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#nav{
+    background-color: black;
+}
+#nav a{
+    text-decoration: none;
+    font-style: bold;
+    font-size: 35px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+    color: white;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#nav a img{
+    height:40px;
+    width:auto;
+    padding-top: 20px;
+}
+#nav a:hover{
+    text-decoration: underline blue 3px;
+}
+
+.fieldset{
+    background-color: white;
+}
+
+h2{
+    font-size: 60px;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+}
+h3{
+    font-size: 20px;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    padding-top: 20px;
+    text-align: center;
+}
+form{
+    width: 400px;
+    margin: 50px auto;
+}
+
+#abc{
+    border-radius: 24px;
+    width: 320px;
+    height: 40px;
+    font-size: 15px;
+    font-style: 'Lato', sans-serif;
+    padding-left: 10px;
+}
+
+#radio{
+    width: 50px;
+    font-size: 20px;
+}
+
+#submit{
+    border-radius: 24px;
+    width: 320px;
+    height: 40px;
+    font-size: 20px;
+    font-style: 'Lato', sans-serif;
+    padding-left: 10px;
+    margin: 10px;
+}
+
+#login{
+    border-radius: 24px;
+    width: 320px;
+    height: 40px;
+    font-size: 20px;
+    font-style: 'Lato', sans-serif;
+    padding-left: 10px;
+    margin: 10px;
+}

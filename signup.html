@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SIGN-UP PAGE</title>
+    <link rel="stylesheet" href="signup.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+</head>
+<body background="login.jpg">
+    <div id="nav">
+                <a id="logo" href="home.html"><img src="logo2.png"></a>
+                <a href="about.html">About Us</a>
+                <a href="#latest">Latest</a>
+                <a href="#news">News</a>
+                <a href="home.html">Home</a>
+    </div>
+    <div class="signup">
+        <div class="container">
+        <form align="center">
+            <fieldset class="fieldset">
+            <!-- <h2><ins>SONY</ins></h2> -->
+            <h2><ins>Sign-Up</ins></h2>
+            <div id="first">
+                <h3>First Name</h3><br>
+                <input type="text" name="fname" id="abc" placeholder="First Name" required>
+            </div>
+            <div id="last">
+                <h3>Last Name</h3><br>
+                <input type="text" name= "lname" id="abc" placeholder="Last Name" required>
+            </div>
+            <div id="gender">
+                <h3>Gender</h3><br>
+                <input type="radio" id="radio">Male
+                <input type="radio" id="radio">Female
+            </div>
+            <div id="number">
+                <h3>Phone Number</h3><br>
+                <input type="number" id="abc" placeholder="Phone Number" required>
+            </div>
+            <div id="email">
+                <h3>Email Address</h3><br>
+                <input type="email" id="abc" placeholder="Email Address" required>
+            </div>
+            <div id="password">
+                <h3>Password</h3><br>
+                <input type="text" id="abc" placeholder="Password" required>
+            </div>
+            <!-- <button type="button" id="submit" onclick="alert('Successfully Signed Up')">Sign Up</button> -->
+            <button type="button" id="submit" onclick="myfunction()">Sign Up</button>
+            <script>
+                function myfunction()
+                {
+                    window.alert("Successfully Signed Up");
+                }
+            </script>
+            <div id="footer">
+                <h4>Already have an account?</h4> <button id="login"><a href="login.html">Login</a></button>
+            </div>
+            </fieldset>
+        </form>
+        </div>
+    </div>
+</body>
+</html>
